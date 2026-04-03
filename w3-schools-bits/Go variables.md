@@ -19,17 +19,23 @@
  If you want to declare the variable you say....
 
  var<> keyword for declaring a variable.
+ 
  Money<> variable name.
+ 
  bool <> variable type.
 
  Putting them together it is
+ 
    var Money bool
 
    The other way of declaring a variable is by using the short variable declaration
 
    Money <> name of variable
+   
    := <> short variable declaration
+   
    student1 <> value
+   
 
    SO let's take an example:
 
@@ -38,14 +44,18 @@
    import ("fmt")
 
    var student1 bool = "ben"
+   
    var student2 = "ben"
+   
    x := 1
+   
 
    func main(){
     fmt.Println(student1)
     fmt.Println(student2)
     fmt.Println(x)
    }
+   
    The example above declares a variable with an initial value
 
    So let's declare some variable without actually an initial value to it:
@@ -55,8 +65,11 @@
    import ("fmt")
 
    func main() {
+   
     var a string
+    
     var b int
+    
     var c bool
 
     fmt.Println(a)
