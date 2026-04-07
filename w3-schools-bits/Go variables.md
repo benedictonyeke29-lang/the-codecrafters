@@ -76,3 +76,20 @@
     fmt.Println(b)
     fmt.Println(c)
    }
+
+
+  # DIFFERENCES BETWEEN 
+  Var and :=
+    VAR   
+    can be used to declare variables outside function body.
+
+    :=
+    can only be used in declaring variable inside a function body.
+
+ 
+ # GOLANG VARIABLE NAMING RULES
+ 
+ A Variable must start with a letter or underscore(_)
+ A Variable cannot contain any space
+ A Variable must not be a golang keyword
+ They is no limit in lenght of a variable
