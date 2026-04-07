@@ -80,4 +80,16 @@
     3 4
 
  # THE Println function
-  The Println
+  The Println works just like the Print functions but there's a difference between the two:
+
+   The Println prints the outputs with space in between the arguments and a new line is added at the end. WHILE The Print functions displays the output only in it's default format without no newline.Let's take this example;
+   
+    package main
+
+    import (
+        "fmt"
+    )
+
+    func main() {
+        fmt.Println("Come here")
+    }
